@@ -21,11 +21,11 @@ registerBlockType('lwhh/hello-world', {
     transforms: {},
     // parent: [],
     supports: {
-        // align: true,
-        // alignWide: false,
-        // anchor: true,
-        //customClassName: true,
-        // className: false
+        align: true,
+        alignWide: false,
+        anchor: true,
+        customClassName: true,
+        className: false
         // html: false,
         // inserter: false
         // multiple: false,
