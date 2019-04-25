@@ -64,7 +64,7 @@ function lwhhgbd_cgb_block_assets() { // phpcs:ignore
 	 * @since 1.16.0
 	 */
 	register_block_type(
-		'cgb/block-lwhhgbd', array(
+		'lwhhgbd/block-alert', array(
 			// Enqueue blocks.style.build.css on both frontend & backend.
 			'style'         => 'lwhhgbd-cgb-style-css',
 			// Enqueue blocks.build.js in the editor only.
@@ -73,6 +73,27 @@ function lwhhgbd_cgb_block_assets() { // phpcs:ignore
 			'editor_style'  => 'lwhhgbd-cgb-block-editor-css',
 		)
 	);
+	register_block_type(
+		'lwhhgbd/block-alert-1', array(
+			// Enqueue blocks.style.build.css on both frontend & backend.
+			'style'         => 'lwhhgbd-cgb-style-css',
+			// Enqueue blocks.build.js in the editor only.
+			'editor_script' => 'lwhhgbd-cgb-block-js',
+			// Enqueue blocks.editor.build.css in the editor only.
+			'editor_style'  => 'lwhhgbd-cgb-block-editor-css',
+		)
+	);
+	register_block_type(
+		'lwhhgbd/block-alert-select', array(
+			// Enqueue blocks.style.build.css on both frontend & backend.
+			'style'         => 'lwhhgbd-cgb-style-css',
+			// Enqueue blocks.build.js in the editor only.
+			'editor_script' => 'lwhhgbd-cgb-block-js',
+			// Enqueue blocks.editor.build.css in the editor only.
+			'editor_style'  => 'lwhhgbd-cgb-block-editor-css',
+		)
+	);
+	
 }
 
 // Hook: Block assets.
